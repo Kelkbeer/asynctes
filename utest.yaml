@@ -6,6 +6,9 @@ userProfileObj:
     lastName: 
       description: "Last Name"
       type: string
+    country: 
+      description: "Country"
+      type: string
     salutationCode: 
       description: "Salutation Code"
       enum: 
