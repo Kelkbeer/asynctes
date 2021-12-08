@@ -1,0 +1,16 @@
+userProfileObj: 
+  properties: 
+    firstName: 
+      description: "First Name."
+      type: string
+    lastName: 
+      description: "Last Name"
+      type: string
+    salutationCode: 
+      description: "Salutation Code"
+      enum: 
+        - MR
+        - MS
+        - MRS
+      type: string
+  type: object
